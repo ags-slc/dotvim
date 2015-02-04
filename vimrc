@@ -19,7 +19,9 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'sjl/gundo.vim'
 Plugin 'scrooloose/syntastic'
-Plugin 'Valloric/YouCompleteMe'
+if v:version > 703
+    Plugin 'Valloric/YouCompleteMe'
+endif
 
 " Bundle install list
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
