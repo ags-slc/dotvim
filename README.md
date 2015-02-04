@@ -1,1 +1,1 @@
-# dotvim
+# dotvimrc
